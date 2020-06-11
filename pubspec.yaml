@@ -1,0 +1,38 @@
+name: magic_8ball
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.18.0
+  google_fonts: ^1.1.0
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat/Montserrat-Light.ttf
+          weight: 300
+        - asset: fonts/Montserrat/Montserrat-Regular.ttf
+          weight: 400
+    - family: Oswald
+      fonts:
+        - asset: fonts/Oswald/static/Oswald-Light.ttf
+          weight: 300
+        - asset: fonts/Oswald/static/Oswald-Regular.ttf
+          weight: 400
+        - asset: fonts/Oswald/static/Oswald-Bold.ttf
+          weight: 700
